@@ -419,6 +419,9 @@ button {
   justify-content: center;
   align-items: center;
 }
+.skills_content {
+  flex-basis: calc(100%/3);
+}
 
 @media screen and (max-width: 1000px) {
   .skills_container {
@@ -431,16 +434,14 @@ button {
 }
 @media screen and (max-width: 700px) {
   .skills_container {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .skills_content {
     flex-basis: 100%;
     flex-grow: 1;
   }
 }
-.skills_content {
-  flex-basis: calc(100%/3);
-}
+
 
 .skills_header {
   display: flex;
